@@ -9,7 +9,7 @@
         public string Tipus { get; set; }
         public int Ervenyesseg { get; set; }
     }
-    class Program
+    public class Program
     {
         static List<Utazas> utazas = new List<Utazas>();
         static void Main(string[] args)
